@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Nodejs Demo</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    </head>
+    <body>
+		<div class="wrapper">
+			<h2 class="heading">Some Useful Government Service</h2>
+			<div class="content">
+				<div class="form_wrapper">
+					<form class="register active" id="userdata_form">
+						<h3>Register</h3>
+						<div class="column">
+							<div>
+								<label>Name:</label>
+								<input type="text" name="name" />
+								<span class="error">This is an error</span>
+							</div>
+							<div>
+								<label>Sex: <br>
+									<label><input type="radio" name="sex" value="m" /> Male</label>
+									<label><input type="radio" name="sex" value="f" /> Female</label>
+								</label>
+								<span class="error">This is an error</span>
+							</div>
+						</div>
+						<div class="column">
+							<div>
+								<label>Age:</label>
+								<input type="number" name="age" />
+								<span class="error">This is an error</span>
+							</div>
+							<div>
+								<label>Country:</label>
+								<select name="country">
+									<option value="" selected disabled>Select...</option>
+								</select>
+								<span class="error">This is an error</span>
+							</div>
+						</div>
+						<div class="bottom">
+							<input type="submit" value="Register" />
+							<div class="clear"></div>
+						</div>
+					</form>
+				</div>
+				<div class="clear"></div>
+				<div id="message"></div>
+			</div>
+		</div>
+		
+
+		<!-- The JavaScript -->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript" src="./js/resource.js"></script>
+		<script type="text/javascript" src="./js/main.js"></script>
+    </body>
+</html>
